@@ -1,0 +1,46 @@
+<html>
+    <title>
+        LIK Trophy | NASA India
+    </title>
+    <head>
+        <link rel="stylesheet" href="try.css">
+        <script>
+            window.onload = setTimeout(() => {
+                document.getElementById("cover").style.opacity = "0%";
+                document.getElementById("cover").style.visibility = "hidden";
+                calculate();
+            }, 2000);
+        </script>
+    </head>
+    
+    <body>
+        <div id="cover">
+            <p id="title1">Louis I. Kahn Trophy<br> <span style="font-size: 75%; font-weight: 700; font-family: 'century gothic';">2023</span></p>
+        </div>
+        <!-- <button onclick="calculate()" style="z-index: 5; position: absolute; right: 0; top: 0;">Click me</button> -->
+        <img id="image2" style="z-index:3; display:none; opacity: 80%; border: 1px solid #000; position: absolute; left: 100; top: 100;"  src="image3.png" alt="World Map" width="900" height="900">
+        <canvas id="myCanvas" style="display: none; position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+        
+        <div id="navigation">
+            <img src="nasa.jpg" alt="Nasa Logo" id="logo">
+            <p id="titles">Louis I. Kahn Trophy</p>
+            <img src="envision.jpg" alt="Theme Logo" id="themeLogo">
+        </div>
+
+        <div id="container"> 
+            <p id="city">City Name</p>
+            <p id="data">City Name</p>
+            <p id="description">description</p>
+            <a href="google.com" id="glink" target="_blank">link to file</a>
+            <p id="begin">hoverrrrr on red dots to explore the city</p>
+        </div>
+        
+        <div id="footer">
+            <a href="https://www.nasaindia.co/" id="footerlink" target="_blank">visit NASA India's website</a>
+        </div>
+       
+
+        <div id="main"></div>
+    </body>   
+    <script src="try2.js"></script> 
+</html>
